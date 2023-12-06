@@ -1,4 +1,4 @@
-baseURL = 'https://qinjo.github.io/hardy-blog/'
+baseURL = 'https://chinjo.top'
 languageCode = 'en-us'
 title = 'Hardy Blog'
 theme = 'paper'
