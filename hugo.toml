@@ -1,0 +1,28 @@
+baseURL = 'https://qinjo.github.io/hardy-blog/'
+languageCode = 'en-us'
+title = 'Hardy Blog'
+theme = 'paper'
+
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+# color style
+color = 'linen'
+github = 'qinjo'
+rss = true
+
+# home page profile
+avatar = 'https://raw.githubusercontent.com/qinjo/pic-private/main/picgo_pic/logo.png'                 # gravatar email or image url
+name = 'Hardy Jo'
+bio = 'Stay Hungry Stay Foolish'
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "👨‍💻 关于我"
+    url = "/about/"
+    weight = 10
