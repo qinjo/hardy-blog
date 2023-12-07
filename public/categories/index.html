@@ -12,18 +12,56 @@
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Categories"/>
 <meta name="twitter:description" content=""/>
-
+<script src="https://qinjo.github.iojs/feather.min.js"></script>
+	
 	
         <link href="https://qinjo.github.io/css/fonts.632959c2ced50591336a4d0ef9901be6d2066b819e43e13cd283db75e771b077.css" rel="stylesheet">
 	
 
 	
 	<link rel="stylesheet" type="text/css" media="screen" href="https://qinjo.github.io/css/main.17ce31d2853a05cfe0b0e04c37de9532500e358db55a7e76617f5c1567e845b9.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://qinjo.github.io/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
 
 	
 	
+		<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
+	
+		
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$'], ['\[','\]']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script>
+	
 
 	
+	
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css">
+		<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js"></script>
+		<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+		
+		
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+					renderMathInElement(document.body, {
+							delimiters: [
+									{left: "$$", right: "$$", display: true},
+									{left: "$", right: "$", display: false}
+							]
+					});
+			});
+			</script>
 	
 	
 	
@@ -35,7 +73,13 @@
 	</div>
 	<nav>
 		
-		<a href="/about/">👨‍💻 关于我</a>
+		<a href="/">Home</a>
+		
+		<a href="/post">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
 		
 		
 	</nav>
@@ -56,7 +100,8 @@
 	</ul>
 </div>
 <footer>
-  <div style="display:flex"></div>
+  <div style="display:flex"><a class="soc" href="https://qinjo.github.io" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a></div>
   <div class="footer-info">
     2023  <a
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
@@ -64,6 +109,8 @@
 </footer>
 
 
-</div>
+<script>
+  feather.replace()
+</script></div>
     </body>
 </html>
