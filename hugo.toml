@@ -8,21 +8,38 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+disqusShortname = "qinjo"
+
+paginate=3 # articles per page
+
 [params]
-# color style
-color = 'linen'
-github = 'qinjo'
-rss = true
+	mode="auto" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "Minimal and Clean [blog theme for Hugo](https://qinjo.github.io)"
+	mathjax = true # enable MathJax support
+	katex = true # enable KaTeX support
 
-# home page profile
-avatar = 'https://raw.githubusercontent.com/qinjo/pic-private/main/picgo_pic/logo.png'                 # gravatar email or image url
-name = 'Hardy Jo'
-bio = 'Stay Hungry Stay Foolish'
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://qinjo.github.io"
 
-[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-  [[menu.main]]
-    identifier = "about"
-    name = "👨‍💻 关于我"
-    url = "/about/"
-    weight = 10
+[[menu.main]]
+name = "All posts"
+url = "/post"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
