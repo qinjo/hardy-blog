@@ -15,7 +15,7 @@ paginate=3 # articles per page
 [params]
 	mode="auto" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://qinjo.github.io)"
+	subtitle = "大智若愚🫠"
 	mathjax = true # enable MathJax support
 	katex = true # enable KaTeX support
 
