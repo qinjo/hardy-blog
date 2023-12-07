@@ -1,6 +1,6 @@
 ---
-author: "Hardy.Jo"
-title: "👨‍💻 关于我"
+title: 👨‍💻 关于我
+description: 有关于我的描述
 date: 2022-11-20T09:03:20-08:00
 draft: false
 ---

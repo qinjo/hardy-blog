@@ -1,7 +1,7 @@
 baseURL = 'https://qinjo.github.io'
 languageCode = 'en-us'
 title = 'Hardy Blog'
-theme = 'paper'
+theme="archie"
 
 # Code Highlight
 pygmentsstyle = "monokai"

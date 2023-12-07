@@ -1,9 +1,9 @@
 ---
-title: 整理一下最近的资源
-author: "Hardy.Jo"
-date:  2023-12-01
+title: 数字资源
+description: 整理一下最近的资源
+date: 2023-11-28
 draft: false
-tags: ["资讯", "博客"]
+tags: ["资源"]
 ---
 
 ### z-library 最新地址

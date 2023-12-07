@@ -1,6 +1,6 @@
 ---
 title: 输出式阅读法 - 读书笔记
-author: "Hardy.Jo"
+description: 读书总结
 date: 2023-11-28
 draft: false
 tags: ["读书"]
