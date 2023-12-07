@@ -6,15 +6,8 @@
     <description>Recent content in 博客 on Hardy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://qinjo.github.io/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>整理一下最近的资源</title>
-      <link>https://qinjo.github.io/post/recently-news/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://qinjo.github.io/post/recently-news/</guid>
-      <description>z-library 最新地址 据说不用翻墙，速度都很快 更新一下内容，尝试了一下，的确速度很快，也不用翻墙，可以留着做为一个备用资源 https://zh.z-library.se/ pinokio https://pinokio.computer/ 用「pinokio」来本地部署一些 AI 项目 真的很方便，我愿称之为开源项目普及之光👍🏻 比如 ComfyUI、SD-WEBUI、SVD、Whisper、RVC、TokenFlow啊都可以在自己电脑上一键部署起来，很适合不太熟悉部署项目，但是又想体验最新技术的朋友。 不过由于是部署在本地的，建议还是有 NVIDIA 显卡或者有 m 系列 mac 的用户使用。 以后换了电脑一定要试一下😝 名言的摘录 Write about what you learn. It pushes you to understand topics better. Sometimes the gaps in our knowledge only become clear when explaining things to others. 写下你学到的东西。它能促使你更好地理解主题。有时，只有在向他人解释时，我们的知识缺口才会变得清晰。 Remember, most of your ideas will be bad; it’s part of the process of getting to the good ones. 请记住，你的大部分想法都会是糟糕的；这是产生好想法的过程的一部分。 Vue 插槽实用案例 插槽这个扩展用法还是没好好掌握得到，用起来不够得心应手，不过我相信会慢慢掌握多点的。</description>
-    </item>
     <item>
       <title>记录一次购买域名的过程</title>
       <link>https://qinjo.github.io/post/buy-domain/</link>

@@ -1,304 +1,57 @@
-<!doctype html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<html
-  class="not-ready lg:text-base"
-  style="--bg: #faf8f1"
-  lang="en-us"
->
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-  />
-
-  
-  <title>记录一次购买域名的过程 - Hardy Blog</title>
-
-  
-  <meta name="theme-color" />
-
-  
-  
-  
-  
-  <meta name="description" content="背景 平时浏览了不少互联网的博客，所以自己也想做一个博客，用于分享自己的各种资讯，同时也可以给自己留个底，这篇文章就是想记录一下购买的过程，以防将来需要再购买的时候，能有个流程给自己。
-购买域名 首先在网上搜索了一轮教程，最后决定在NameSilo上面购买，大家都说有WHOIS的隐私保护，默认就有，还免费的，挺多人推荐的。
-解析域名 买了之后，需要进行域名解析，这部分操作我放到 cloudflare上操作，比较简单，提示也挺充分的，比较顺畅就设置好了。
-购买服务器 之后就是购买服务器，这个地方有点犹豫，因为服务器真的很贵！！😭即使有新人优惠，腾讯云上基本都要540-3年，这个费用有点超出我想象。退而求其次，想着还有个本地服务器的方法，但是这个就要选个功耗低的硬件，这个费用基本都要大几千块，这费用也是很贵啊。不知道怎么选择好啊。
-目前有三种途径可以选： 腾讯云轻量服务器-首单会便宜很多，但是时长比较长，需要3年，540左右 本地服务器-需要购买硬件，而且公网IP获取比较麻烦，需要寻找途径解决 阿里云-也支持轻量服务器，但是相对腾讯云会贵很多，提起他主要是他有个按量收费的模式，比较适合当前我的需求，可以随时关闭或者开启，体验之后，再决定是否购买服务器也行 对应服务器购买地址： 腾讯云 - https://cloud.tencent.com/act/pro/seckill_season?from=20210 阿里云 - https://ecs-buy.aliyun.com/ecs/#/custom/postpay/cn-beijing 优课得 - https://my.vultr.com/deploy/ RackNerd - https://my.racknerd.com/cart.php?a=confproduct&amp;i=2 优惠汇总地址： https://www.vpsgo.com/racknerd-coupons.html" />
-  <meta name="author" content="Hardy.Jo" />
-  
-
-  
-  
-  
-  
-  
-  
-  <link rel="preload stylesheet" as="style" href="https://qinjo.github.io/main.min.css" />
-
-  
-  
-  
-  
-  
-  <link rel="preload" as="image" href="https://qinjo.github.io/theme.png" />
-
-  
-  
-  
-  
-  <link rel="preload" as="image" href="https://raw.githubusercontent.com/qinjo/pic-private/main/picgo_pic/logo.png" />
-  
-  
-
-  
-  
-  <link rel="preload" as="image" href="https://qinjo.github.io/github.svg" />
-  
-  <link rel="preload" as="image" href="https://qinjo.github.io/rss.svg" />
-  
-  
-
-  
-  
-  <script
-    defer
-    src="https://qinjo.github.io/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
-  ></script>
-  
-
-  
-  
-  
-
-  
-  <link rel="icon" href="https://qinjo.github.io/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://qinjo.github.io/apple-touch-icon.png" />
-
-  
-  <meta name="generator" content="Hugo 0.121.0">
-
-  
-  
-  
-  
-  
-  <meta itemprop="name" content="记录一次购买域名的过程">
-<meta itemprop="description" content="背景 平时浏览了不少互联网的博客，所以自己也想做一个博客，用于分享自己的各种资讯，同时也可以给自己留个底，这篇文章就是想记录一下购买的过程，以防将来需要再购买的时候，能有个流程给自己。
-购买域名 首先在网上搜索了一轮教程，最后决定在NameSilo上面购买，大家都说有WHOIS的隐私保护，默认就有，还免费的，挺多人推荐的。
-解析域名 买了之后，需要进行域名解析，这部分操作我放到 cloudflare上操作，比较简单，提示也挺充分的，比较顺畅就设置好了。
-购买服务器 之后就是购买服务器，这个地方有点犹豫，因为服务器真的很贵！！😭即使有新人优惠，腾讯云上基本都要540-3年，这个费用有点超出我想象。退而求其次，想着还有个本地服务器的方法，但是这个就要选个功耗低的硬件，这个费用基本都要大几千块，这费用也是很贵啊。不知道怎么选择好啊。
-目前有三种途径可以选： 腾讯云轻量服务器-首单会便宜很多，但是时长比较长，需要3年，540左右 本地服务器-需要购买硬件，而且公网IP获取比较麻烦，需要寻找途径解决 阿里云-也支持轻量服务器，但是相对腾讯云会贵很多，提起他主要是他有个按量收费的模式，比较适合当前我的需求，可以随时关闭或者开启，体验之后，再决定是否购买服务器也行 对应服务器购买地址： 腾讯云 - https://cloud.tencent.com/act/pro/seckill_season?from=20210 阿里云 - https://ecs-buy.aliyun.com/ecs/#/custom/postpay/cn-beijing 优课得 - https://my.vultr.com/deploy/ RackNerd - https://my.racknerd.com/cart.php?a=confproduct&amp;i=2 优惠汇总地址： https://www.vpsgo.com/racknerd-coupons.html"><meta itemprop="datePublished" content="2023-11-28T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2023-11-28T00:00:00+00:00" />
-<meta itemprop="wordCount" content="28">
-<meta itemprop="keywords" content="博客," />
-  
-  <meta property="og:title" content="记录一次购买域名的过程" />
-<meta property="og:description" content="背景 平时浏览了不少互联网的博客，所以自己也想做一个博客，用于分享自己的各种资讯，同时也可以给自己留个底，这篇文章就是想记录一下购买的过程，以防将来需要再购买的时候，能有个流程给自己。
-购买域名 首先在网上搜索了一轮教程，最后决定在NameSilo上面购买，大家都说有WHOIS的隐私保护，默认就有，还免费的，挺多人推荐的。
-解析域名 买了之后，需要进行域名解析，这部分操作我放到 cloudflare上操作，比较简单，提示也挺充分的，比较顺畅就设置好了。
-购买服务器 之后就是购买服务器，这个地方有点犹豫，因为服务器真的很贵！！😭即使有新人优惠，腾讯云上基本都要540-3年，这个费用有点超出我想象。退而求其次，想着还有个本地服务器的方法，但是这个就要选个功耗低的硬件，这个费用基本都要大几千块，这费用也是很贵啊。不知道怎么选择好啊。
-目前有三种途径可以选： 腾讯云轻量服务器-首单会便宜很多，但是时长比较长，需要3年，540左右 本地服务器-需要购买硬件，而且公网IP获取比较麻烦，需要寻找途径解决 阿里云-也支持轻量服务器，但是相对腾讯云会贵很多，提起他主要是他有个按量收费的模式，比较适合当前我的需求，可以随时关闭或者开启，体验之后，再决定是否购买服务器也行 对应服务器购买地址： 腾讯云 - https://cloud.tencent.com/act/pro/seckill_season?from=20210 阿里云 - https://ecs-buy.aliyun.com/ecs/#/custom/postpay/cn-beijing 优课得 - https://my.vultr.com/deploy/ RackNerd - https://my.racknerd.com/cart.php?a=confproduct&amp;i=2 优惠汇总地址： https://www.vpsgo.com/racknerd-coupons.html" />
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>记录一次购买域名的过程 - Hardy Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="平时浏览了不少互联网的博客，所以自己也想做一个博客，用于分享自己的各种资讯，同时也可以给自己留个底，这篇文章就是想记录一下购买的过程，以防将来需要再购买的时候，能有个流程给自己。" />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="记录一次购买域名的过程" />
+<meta property="og:description" content="平时浏览了不少互联网的博客，所以自己也想做一个博客，用于分享自己的各种资讯，同时也可以给自己留个底，这篇文章就是想记录一下购买的过程，以防将来需要再购买的时候，能有个流程给自己。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://qinjo.github.io/post/buy-domain/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2023-11-28T00:00:00+00:00" />
 <meta property="article:modified_time" content="2023-11-28T00:00:00+00:00" />
 
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="记录一次购买域名的过程"/>
+<meta name="twitter:description" content="平时浏览了不少互联网的博客，所以自己也想做一个博客，用于分享自己的各种资讯，同时也可以给自己留个底，这篇文章就是想记录一下购买的过程，以防将来需要再购买的时候，能有个流程给自己。"/>
 
-  
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="记录一次购买域名的过程"/>
-<meta name="twitter:description" content="背景 平时浏览了不少互联网的博客，所以自己也想做一个博客，用于分享自己的各种资讯，同时也可以给自己留个底，这篇文章就是想记录一下购买的过程，以防将来需要再购买的时候，能有个流程给自己。
-购买域名 首先在网上搜索了一轮教程，最后决定在NameSilo上面购买，大家都说有WHOIS的隐私保护，默认就有，还免费的，挺多人推荐的。
-解析域名 买了之后，需要进行域名解析，这部分操作我放到 cloudflare上操作，比较简单，提示也挺充分的，比较顺畅就设置好了。
-购买服务器 之后就是购买服务器，这个地方有点犹豫，因为服务器真的很贵！！😭即使有新人优惠，腾讯云上基本都要540-3年，这个费用有点超出我想象。退而求其次，想着还有个本地服务器的方法，但是这个就要选个功耗低的硬件，这个费用基本都要大几千块，这费用也是很贵啊。不知道怎么选择好啊。
-目前有三种途径可以选： 腾讯云轻量服务器-首单会便宜很多，但是时长比较长，需要3年，540左右 本地服务器-需要购买硬件，而且公网IP获取比较麻烦，需要寻找途径解决 阿里云-也支持轻量服务器，但是相对腾讯云会贵很多，提起他主要是他有个按量收费的模式，比较适合当前我的需求，可以随时关闭或者开启，体验之后，再决定是否购买服务器也行 对应服务器购买地址： 腾讯云 - https://cloud.tencent.com/act/pro/seckill_season?from=20210 阿里云 - https://ecs-buy.aliyun.com/ecs/#/custom/postpay/cn-beijing 优课得 - https://my.vultr.com/deploy/ RackNerd - https://my.racknerd.com/cart.php?a=confproduct&amp;i=2 优惠汇总地址： https://www.vpsgo.com/racknerd-coupons.html"/>
+	
+        <link href="https://qinjo.github.io/css/fonts.632959c2ced50591336a4d0ef9901be6d2066b819e43e13cd283db75e771b077.css" rel="stylesheet">
+	
 
-  
-  
-  
-  <link rel="canonical" href="https://qinjo.github.io/post/buy-domain/" />
-  
-  
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://qinjo.github.io/css/main.17ce31d2853a05cfe0b0e04c37de9532500e358db55a7e76617f5c1567e845b9.css" />
+
+	
+	
+
+	
+	
+	
+	
 </head>
-
-  <body class="text-black duration-200 ease-out dark:text-white">
-    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
-  <div class="relative z-50 mr-auto flex items-center">
-    <a
-      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
-      href="https://qinjo.github.io"
-      >Hardy Blog</a
-    >
-    <div
-      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
-      role="button"
-      aria-label="Dark"
-    ></div>
-  </div>
-
-  <div
-    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
-    role="button"
-    aria-label="Menu"
-  ></div>
-
-  
-
-  <script>
-    
-    const htmlClass = document.documentElement.classList;
-    setTimeout(() => {
-      htmlClass.remove('not-ready');
-    }, 10);
-
-    
-    const btnMenu = document.querySelector('.btn-menu');
-    btnMenu.addEventListener('click', () => {
-      htmlClass.toggle('open');
-    });
-
-    
-    const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#faf8f1'.replace(/"/g, '');
-    const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
-      htmlClass[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark);
-    };
-
-    
-    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
-    if (htmlClass.contains('dark')) {
-      setDark(true);
-    } else {
-      const darkVal = localStorage.getItem('dark');
-      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
-    }
-
-    
-    darkScheme.addEventListener('change', (event) => {
-      setDark(event.matches);
-    });
-
-    
-    const btnDark = document.querySelector('.btn-dark');
-    btnDark.addEventListener('click', () => {
-      setDark(localStorage.getItem('dark') !== 'true');
-    });
-  </script>
-
-  <div
-    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
-  >
-    
-    
-    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
-      
-      <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/about/"
-        >👨‍💻 关于我</a
-      >
-      
-    </nav>
-    
-
-    
-    <nav
-      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
-    >
-      
-      <a
-        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
-        style="--url: url(./github.svg)"
-        href="https://github.com/qinjo"
-        target="_blank"
-        rel="me"
-      >
-        github
-      </a>
-      
-      <a
-        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
-        style="--url: url(./rss.svg)"
-        href="https://qinjo.github.io/index.xml"
-        target="_blank"
-        rel="alternate"
-      >
-        rss
-      </a>
-      
-    </nav>
-    
-  </div>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://qinjo.github.io">Hardy Blog</a>
+	</div>
+	<nav>
+		
+		<a href="/about/">👨‍💻 关于我</a>
+		
+		
+	</nav>
 </header>
 
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">记录一次购买域名的过程</h1>
+			<div class="meta">Posted on Nov 28, 2023</div>
+		</div>
+		
 
-    <main
-      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
-    >
-      
-
-<article>
-  <header class="mb-16">
-    <h1 class="!my-0 pb-2.5">记录一次购买域名的过程</h1>
-
-    
-    <div class="text-sm antialiased opacity-60">
-      
-      <time>Nov 28, 2023</time>
-      
-      
-      
-      
-      <span class="mx-1">&middot;</span>
-      <span>Hardy.Jo</span>
-      
-    </div>
-    
-  </header>
-
-  <section><h2 id="背景">背景</h2>
+		<section class="body">
+			<h2 id="背景">背景</h2>
 <p>平时浏览了不少互联网的博客，所以自己也想做一个博客，用于分享自己的各种资讯，同时也可以给自己留个底，这篇文章就是想记录一下购买的过程，以防将来需要再购买的时候，能有个流程给自己。</p>
 <h2 id="购买域名">购买域名</h2>
 <p>首先在网上搜索了一轮教程，最后决定在<a href="https://www.namesilo.com/?rid=d27fa32do">NameSilo</a>上面购买，大家都说有WHOIS的隐私保护，默认就有，还免费的，挺多人推荐的。</p>
@@ -321,75 +74,33 @@
 </ol>
 <h3 id="优惠汇总地址">优惠汇总地址：</h3>
 <p><a href="https://www.vpsgo.com/racknerd-coupons.html">https://www.vpsgo.com/racknerd-coupons.html</a></p>
-</section>
 
-  
-  
-  <footer class="mt-12 flex flex-wrap">
-     
-    <a
-      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
-      href="https://qinjo.github.io/tags/%E5%8D%9A%E5%AE%A2"
-      >博客</a
-    >
-    
-  </footer>
-  
+		</section>
 
-  
-  
-  
-  
-  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
-    
-    <a
-      class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://qinjo.github.io/post/recently-news/"
-      ><span class="mr-1.5">←</span><span>整理一下最近的资源</span></a
-    >
-    
-    
-    <a
-      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://qinjo.github.io/post/read-books1/"
-      ><span>输出式阅读法 - 读书笔记</span><span class="ml-1.5">→</span></a
-    >
-    
-  </nav>
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-</article>
-
-
-    </main>
-
-    <footer
-  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
->
-  <div class="mr-auto">
-    &copy; 2023
-    <a class="link" href="https://qinjo.github.io">Hardy Blog</a>
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/%E5%8D%9A%E5%AE%A2">博客</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"></div>
+  <div class="footer-info">
+    2023  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
-  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
-    >Powered by Hugo️️</a
-  >️
-  <a
-    class="link"
-    href="https://github.com/nanxiaobei/hugo-paper"
-    rel="noopener"
-    target="_blank"
-    >✎ Paper</a
-  >
 </footer>
 
-  </body>
+
+</div>
+    </body>
 </html>
