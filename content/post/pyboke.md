@@ -1,11 +1,9 @@
 ---
-title: Pyboke 建站指南
-description: 这是一个 Static Blog Generator (极简博客生成器)，这次主要介绍一下在使用过程中需要注意的地方。
-date: 2023-12-13
+title: 'Pyboke建站指南'
+date: 2023-12-13T07:52:09+08:00
 draft: false
 tags: ["博客"]
 ---
-
 ## 背景
 由于是第一次使用这个库部署博客，光是部署都已经耗费不少时间了。因此感觉还是记录一下过程，免得自己忘了。
 
