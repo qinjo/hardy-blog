@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>建站 on Hardy Blog</title>
+    <link>https://chinjo.top/tags/%E5%BB%BA%E7%AB%99/</link>
+    <description>Recent content in 建站 on Hardy Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Dec 2023 07:52:09 +0800</lastBuildDate>
+    <atom:link href="https://chinjo.top/tags/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pyboke建站指南</title>
+      <link>https://chinjo.top/post/pyboke/</link>
+      <pubDate>Wed, 13 Dec 2023 07:52:09 +0800</pubDate>
+      <guid>https://chinjo.top/post/pyboke/</guid>
+      <description>背景 由于是第一次使用这个库部署博客，光是部署都已经耗费不少时间了。因此感觉还是记录一下过程，免得自己忘了。&#xA;开始 这里有两种情况，一个是什么都没有，从零开始着手；另一种已经写过了，而且你是用了别的主机去打开之前的库的情况。 原博客有两个库，建议选择下面链接的库，因为这是作者最近更新的，还添加了RSS功能。 传送门👉: https://github.com/yinan-c/pyboke 从零开始 首先把仓库克隆到本地，git clone https://github.com/yinan-c/pyboke.git 然后配置环境，根据文档的建议是建立一个虚拟环境，用于在本地安装和测试修改后的库。 // 创建环境 python3 -m venv venv // 激活环境 source venv/bin/activate // 关闭环境 deactivate 然后进入刚才克隆到本地的文件夹cd pyboke，以开发模式安装此库 pip install -e . 然后就可以开始创建自己的博客了 mkdir my-blog (新建一个空文件夹) cd my-blog (进入空文件夹内) boke init (初始化博客) 到这里其实都是按照原教程操作就可以了，难度并不大。而我一开始说的会有两种情况出现，其实就是在这产生了不同。 关键是在于一开始init的命令，创建了几个文件夹，这些文件夹当中，有些是空的。如果你是从零开始的话，是不会出现问题，但是如果你是换了主机的时候，从 GitHub 上克隆下来的文件夹当中，会少了默认创建出来的几个空的文件夹，导致你 boke 相关的命令都使用不了。 为什么会有这种呢？当你把库推送到自己的GitHub时，有几个默认开始创建的文件夹，会推送不到仓库里面去的，这是因为空文件夹无法直接推送到 GitHub 仓库中，GitHub 不会跟踪空文件夹。通常情况下，可以在空文件夹中创建一个名为 .gitkeep 的文件，然后将其推送到仓库中。这个文件的存在会让 GitHub 认为这个文件夹不再是空的，从而可以将其推送到远程仓库中。 另外，你也可以在空文件夹中创建一个 .gitignore 文件，然后在其中添加一些注释或者特定的文件名，这样也可以让 GitHub 认为这个文件夹不再是空的，从而将其推送到远程仓库中。 当然上述情况对于懂代码、懂Python的程序员来说一点难度都没有，我写出来也只是希望其他不懂的人能够理解到其中的原理。 总结 总的来讲，这个库比较适合一些喜欢折腾的人去使用，可玩性很高。同时也给建议给大家，在使用这些仓库的时候，遇到问题，可以先用 chatGPT 查询一下，这既能帮助到实际项目当中，也可以锻炼自己对问题的提炼，怎么可以问到重点，怎么可以得到自己想要的答案，这些都是需要自己去练习的。</description>
+    </item>
+  </channel>
+</rss>

@@ -28,5 +28,3 @@ draft: false
 ## 📬 联系我呀
 - [即刻](https://m.okjike.com/users/3E16199A-C337-48DA-B5D9-6B6C60248BFE?ref=PROFILE_CARD&utm_source=user_card)
 - [Github](https://github.com/qinjo)
-
-git submodule add https://github.com/qinjo/archie-hugo.git themes/archie

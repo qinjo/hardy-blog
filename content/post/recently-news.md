@@ -1,6 +1,6 @@
 ---
 title: 数字资源
-description: 整理一下最近的资源
+description: 整理一下最近的资源。
 date: 2023-11-28
 draft: false
 tags: ["资源"]
@@ -20,9 +20,9 @@ tags: ["资源"]
 
 ### 名言的摘录
 - Write about what you learn. It pushes you to understand topics better. Sometimes the gaps in our knowledge only become clear when explaining things to others.
-  写下你学到的东西。它能促使你更好地理解主题。有时，只有在向他人解释时，我们的知识缺口才会变得清晰。
+写下你学到的东西。它能促使你更好地理解主题。有时，只有在向他人解释时，我们的知识缺口才会变得清晰。
 - Remember, most of your ideas will be bad; it’s part of the process of getting to the good ones.
-  请记住，你的大部分想法都会是糟糕的；这是产生好想法的过程的一部分。
+请记住，你的大部分想法都会是糟糕的；这是产生好想法的过程的一部分。
 
 ### Vue 插槽实用案例
 插槽这个扩展用法还是没好好掌握得到，用起来不够得心应手，不过我相信会慢慢掌握多点的。
