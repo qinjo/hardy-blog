@@ -1,5 +1,6 @@
 ---
 title: 'Pyboke建站指南'
+description: 这是一个 Static Blog Generator (极简博客生成器)，这次主要是介绍一下开发过程中需要注意的点。
 date: 2023-12-13T07:52:09+08:00
 draft: false
 tags: ["博客"]
