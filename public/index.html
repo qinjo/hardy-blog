@@ -5,23 +5,23 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Hardy Blog | Home </title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta property="og:image" content=""/>
-	<link rel="alternate" type="application/rss+xml" href="https://qinjo.github.io/index.xml" title="Hardy Blog" />
+	<link rel="alternate" type="application/rss+xml" href="https://chinjo.top/index.xml" title="Hardy Blog" />
 	<meta property="og:title" content="Hardy Blog" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://qinjo.github.io/" />
+<meta property="og:url" content="https://chinjo.top/" />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Hardy Blog"/>
 <meta name="twitter:description" content=""/>
-<script src="https://qinjo.github.iojs/feather.min.js"></script>
+<script src="https://chinjo.topjs/feather.min.js"></script>
 	
 	
-        <link href="https://qinjo.github.io/css/fonts.1ac8d69c0756efd44e440ab419137f59ea9f18dab31a8eb5920efd901c3f8b9c.css" rel="stylesheet">
+        <link href="https://chinjo.top/css/fonts.1ac8d69c0756efd44e440ab419137f59ea9f18dab31a8eb5920efd901c3f8b9c.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://qinjo.github.io/css/main.faeac9f9e7d352be40378c2a68a2c289f6e349e717e2d1bffeecfc637614e195.css" />
-		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://qinjo.github.io/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://chinjo.top/css/main.faeac9f9e7d352be40378c2a68a2c289f6e349e717e2d1bffeecfc637614e195.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://chinjo.top/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
 	
 
 	
@@ -72,7 +72,7 @@
 		<div class="content">
 			<header>
 	<div class="main">
-		<a href="https://qinjo.github.io">Hardy Blog</a>
+		<a href="https://chinjo.top">Hardy Blog</a>
 	</div>
 	<nav>
 		
@@ -93,6 +93,18 @@
 				<div class="site-description"><p>大智若愚🫠</p></div>
 				
 				
+				
+				<section class="list-item">
+					<h1 class="title"><a href="/post/pyboke/">Pyboke建站指南</a></h1>
+					<time>Dec 13, 2023</time>
+					<br><div class="description">
+	
+	背景 由于是第一次使用这个库部署博客，光是部署都已经耗费不少时间了。因此感觉还是记录一下过程，免得自己忘了。
+开始 这里有两种情况，一个是什么都没有，从零开始着手；另一种已经写过了，而且你是用了别的主机去打开之前的库的情况。 原博客有两个库，建议选择下面链接的库，因为这是作者最近更新的，还添加了RSS功能。 传送门👉: https://github.com/yinan-c/pyboke 从零开始 首先把仓库克隆到本地，git clone https://github.com/yinan-c/pyboke.git 然后配置环境，根据文档的建议是建立一个虚拟环境，用于在本地安装和测试修改后的库。 // 创建环境 python3 -m venv venv // 激活环境 source venv/bin/activate // 关闭环境 deactivate 然后进入刚才克隆到本地的文件夹cd pyboke，以开发模式安装此库 pip install -e . 然后就可以开始创建自己的博客了 mkdir my-blog (新建一个空文件夹) cd my-blog (进入空文件夹内) boke init (初始化博客) 到这里其实都是按照原教程操作就可以了，难度并不大。而我一开始说的会有两种情况出现，其实就是在这产生了不同。 关键是在于一开始init的命令，创建了几个文件夹，这些文件夹当中，有些是空的。如果你是从零开始的话，是不会出现问题，但是如果你是换了主机的时候，从 GitHub 上克隆下来的文件夹当中，会少了默认创建出来的几个空的文件夹，导致你 boke 相关的命令都使用不了。 为什么会有这种呢？当你把库推送到自己的GitHub时，有几个默认开始创建的文件夹，会推送不到仓库里面去的，这是因为空文件夹无法直接推送到 GitHub 仓库中，GitHub 不会跟踪空文件夹。通常情况下，可以在空文件夹中创建一个名为 .gitkeep 的文件，然后将其推送到仓库中。这个文件的存在会让 GitHub 认为这个文件夹不再是空的，从而可以将其推送到远程仓库中。 另外，你也可以在空文件夹中创建一个 .gitignore 文件，然后在其中添加一些注释或者特定的文件名，这样也可以让 GitHub 认为这个文件夹不再是空的，从而将其推送到远程仓库中。 当然上述情况对于懂代码、懂Python的程序员来说一点难度都没有，我写出来也只是希望其他不懂的人能够理解到其中的原理。 总结 总的来讲，这个库比较适合一些喜欢折腾的人去使用，可玩性很高。同时也给建议给大家，在使用这些仓库的时候，遇到问题，可以先用 chatGPT 查询一下，这既能帮助到实际项目当中，也可以锻炼自己对问题的提炼，怎么可以问到重点，怎么可以得到自己想要的答案，这些都是需要自己去练习的。&hellip;
+	
+</div>
+					<a class="readmore" href="/post/pyboke/">Read more ⟶</a>
+				</section>
 				
 				<section class="list-item">
 					<h1 class="title"><a href="/post/recently-news/">数字资源</a></h1>
@@ -116,18 +128,18 @@
 					<a class="readmore" href="/post/buy-domain/">Read more ⟶</a>
 				</section>
 				
-				<section class="list-item">
-					<h1 class="title"><a href="/post/read-books1/">输出式阅读法 - 读书笔记</a></h1>
-					<time>Nov 28, 2023</time>
-					<br><div class="description">
-	
-	读书总结
-	
-</div>
-					<a class="readmore" href="/post/read-books1/">Read more ⟶</a>
-				</section>
 				
-				
+
+<ul class="pagination">
+	<span class="page-item page-prev">
+	
+	</span>
+	<span class="page-item page-next">
+	
+    <a href="/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">Next →</span></a>
+	
+	</span>
+</ul>
 
 
 			</main>
