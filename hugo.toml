@@ -25,6 +25,11 @@ name = "GitHub"
 icon = "github"
 url = "https://qinjo.github.io"
 
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/chinjo425/"
+
 [[menu.main]]
 name = "Home"
 url = "/"
