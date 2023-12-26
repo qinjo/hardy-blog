@@ -6,8 +6,15 @@
     <description>Recent content on Hardy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Dec 2023 16:06:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Dec 2023 15:57:28 +0800</lastBuildDate>
     <atom:link href="https://chinjo.top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zettelkasten方法论</title>
+      <link>https://chinjo.top/post/zettelkasten/</link>
+      <pubDate>Tue, 26 Dec 2023 15:57:28 +0800</pubDate>
+      <guid>https://chinjo.top/post/zettelkasten/</guid>
+      <description>Zettelkasten方法论里面提倡使用一种 原子理论 去管理自己的知识体系。意思就是将知识分解为最小的、独立的信息单元，每个单元都是一个独立的信息片段，它可以是一个想法、概念、事实、引用或者任何你认为有价值的信息。这些个单元被称为「原子（Zettel）」。这种方法强调的是信息的最小化和独立性，使得每个「原子」都能够独立存在，并且可以与其他「原子」通过链接和索引进行连接。&#xA;其核心在于： 最小化：每个“原子”都是最小的、可独立理解的信息单元。这意味着每个卡片上的信息应该尽可能简洁，避免包含过多的上下文或冗余信息。 独立性：每个“原子”都是独立的，它们可以独立于其他卡片存在。这使得信息可以灵活地重新组合，以适应不同的需求和上下文。 链接性：通过在卡片之间建立链接，可以形成一个复杂的网络，这些网络代表了知识的结构。链接可以是直接的引用、主题关联、概念对比等。 可扩展性：随着时间的推移，你可以不断地添加新的“原子”，并根据需要与现有的“原子”建立联系，从而扩展你的知识库。 可追溯性：每个“原子”都有一个唯一的编号，这使得你可以轻松地追溯信息的来源和演变过程。 </description>
+    </item>
     <item>
       <title>思考（1）</title>
       <link>https://chinjo.top/post/thinking1/</link>

@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>思考🤔️ on Hardy Blog</title>
-    <link>https://chinjo.top/tags/%E6%80%9D%E8%80%83%EF%B8%8F/</link>
-    <description>Recent content in 思考🤔️ on Hardy Blog</description>
+    <title>Areas/Blog on Hardy Blog</title>
+    <link>https://chinjo.top/tags/areas/blog/</link>
+    <description>Recent content in Areas/Blog on Hardy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Dec 2023 15:57:28 +0800</lastBuildDate>
-    <atom:link href="https://chinjo.top/tags/%E6%80%9D%E8%80%83%EF%B8%8F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://chinjo.top/tags/areas/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zettelkasten方法论</title>
       <link>https://chinjo.top/post/zettelkasten/</link>
       <pubDate>Tue, 26 Dec 2023 15:57:28 +0800</pubDate>
       <guid>https://chinjo.top/post/zettelkasten/</guid>
       <description>Zettelkasten方法论里面提倡使用一种 原子理论 去管理自己的知识体系。意思就是将知识分解为最小的、独立的信息单元，每个单元都是一个独立的信息片段，它可以是一个想法、概念、事实、引用或者任何你认为有价值的信息。这些个单元被称为「原子（Zettel）」。这种方法强调的是信息的最小化和独立性，使得每个「原子」都能够独立存在，并且可以与其他「原子」通过链接和索引进行连接。&#xA;其核心在于： 最小化：每个“原子”都是最小的、可独立理解的信息单元。这意味着每个卡片上的信息应该尽可能简洁，避免包含过多的上下文或冗余信息。 独立性：每个“原子”都是独立的，它们可以独立于其他卡片存在。这使得信息可以灵活地重新组合，以适应不同的需求和上下文。 链接性：通过在卡片之间建立链接，可以形成一个复杂的网络，这些网络代表了知识的结构。链接可以是直接的引用、主题关联、概念对比等。 可扩展性：随着时间的推移，你可以不断地添加新的“原子”，并根据需要与现有的“原子”建立联系，从而扩展你的知识库。 可追溯性：每个“原子”都有一个唯一的编号，这使得你可以轻松地追溯信息的来源和演变过程。 </description>
-    </item>
-    <item>
-      <title>思考（1）</title>
-      <link>https://chinjo.top/post/thinking1/</link>
-      <pubDate>Tue, 19 Dec 2023 16:06:02 +0000</pubDate>
-      <guid>https://chinjo.top/post/thinking1/</guid>
-      <description>最近看了董宇辉（以下统称小董）的一部分直播视频，视频主要是介绍小董的偶像-杜甫。&#xA;他的介绍说上天给予杜甫的牌非常差，他的祖辈们都代代为官，但唯独到他这一代就开始家道中落。曾经以为自己才华横溢，却一直找不到可以一展才华的机会。&#xA;正常人当这么些事降临在自己身上的时候，都会开始怀疑人生。但杜甫却能一直保持着他那至真至纯的心，不要说在古代，这样的人才在现代也可称之为圣人。&#xA;杜甫在世时的朝代可是大唐盛世，最繁华的时代，但他却在关心普通老百姓生活怎么样，一心为民，这词可以在他身上表现的淋漓尽致。&#xA;当然，小董的核心思想不是呼吁大家能像杜甫一样大无畏。小董强调的思想是希望大家能在现在这个物质财富的世界中，寻找到自己精神的寄托，不要过于追求物质、财富。通俗地说，就是了解自己真正需要的是什么，去触摸自己内心深处真实想法，这样活着才能真正活得开心，自在。&#xA;以上纯属个人观点，是观看视频后的思考感想。</description>
     </item>
   </channel>
 </rss>
