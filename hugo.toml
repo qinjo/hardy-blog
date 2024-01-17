@@ -1,6 +1,6 @@
 baseURL = 'https://chinjo.top/'
 languageCode = 'en-us'
-title = 'Hardy Blog'
+title = '竹青鱼'
 theme="archie"
 
 # Code Highlight
