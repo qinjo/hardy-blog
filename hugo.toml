@@ -16,7 +16,7 @@ paginate=5 # articles per page
 	mode="toggle" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
 	description = '探索技术的极限，我将会带你见识建站、设计、技术、博客、资源、前端等不同类型的元素。'
-	subtitle = "大智若愚🫠"
+	subtitle = "大器免成"
 	mathjax = true # enable MathJax support
 	katex = true # enable KaTeX support
 
