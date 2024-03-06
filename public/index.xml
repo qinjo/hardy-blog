@@ -6,8 +6,15 @@
     <description>Recent content on 竹青鱼</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Mar 2024 14:31:06 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Mar 2024 15:48:37 +0800</lastBuildDate>
     <atom:link href="https://chinjo.top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 建站指南</title>
+      <link>https://chinjo.top/post/hugo/</link>
+      <pubDate>Wed, 06 Mar 2024 15:48:37 +0800</pubDate>
+      <guid>https://chinjo.top/post/hugo/</guid>
+      <description>这篇文章主要是介绍如何使用 hugo 搭建自己的个人博客网站，这是我个人的博客: https://chinjo.top/。&#xA;前提条件 这里的前提条件我就不再多讲了，无非就两样，我就简单介绍一下就行了，大家多去搜索一下就行。&#xA;域名 服务器 域名很简单，网上搜索会有很多购买的网站，这里就推荐NameSilo，默认就有 WHOIS 的隐私保护服务，挺好的，也不贵。需要注意的是，购买的时候多留意一下，续费是不是同价，有的域名购买的第一年会很便宜，第二年开始价格会不一样，这点需要多留意下就可以了。&#xA;服务器接触的最多的是虚拟主机和 VPS，虚拟机价格便宜，性能弱（也就一般需求不高的企业可以用），可定制化低。VPS 性能更好，安全性更高，可定制性高，价格稍贵。至于去哪个服务商购买，这里就推荐一个「Cloud Cone 」，其他服务商，我也没购买过，不敢随便下定论。&#xA;建站 在此之前，需要先下载 hugo 的命令行执行文件。&#xA;所有的版本下载地址。&#xA;下载及安装完成后，就可以开始入门 Hugo 了。这部分建议多去官网看看详细的教程，参考官方的快速文档基本都可以实现出来.&#xA;以下是官方的教程，需要有一定的代码基础&#xA;hugo new site quickstart cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke echo &amp;#34;theme = &amp;#39;ananke&amp;#39;&amp;#34; &amp;gt;&amp;gt; hugo.toml hugo server 新建文章 官方建议是通过命令创建内容的&#xA;hugo new posts/my-first-post.md Hugo 会创建一个新的文件在content/posts的目录里面，只需要在编辑器上打开这个文件就可以了。&#xA;+++ title = &amp;#39;My First Post&amp;#39; date = 2024-01-14T07:07:07+01:00 draft = true +++ 只需要在+++下面添加你的文章内容就可以了。需要注意的是，默认生成的文件上面，draft属性是为true的，在预览的时候，需要将其修改成false或者删除这一行都可以，不然会预览不到新建的这篇文章。&#xA;主题选择 默认的主题基本都不好看，可以自己去主题中心找找看。我选择的是Archie，其中我把里面的字体替换了，改成自己想要的字体「霞鹜文楷」，有兴趣的可以去看看，一款不错的楷体，还是开源的。&#xA;预览 本地预览的操作其实很简单，直接在编辑器的命令行中，输入hugo server命令即可生成本地预览地址。</description>
+    </item>
     <item>
       <title>近期情况</title>
       <link>https://chinjo.top/post/recently-new3/</link>
