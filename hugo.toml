@@ -1,6 +1,6 @@
 baseURL = 'https://chinjo.top/'
 languageCode = 'en-us'
-title = '竹青鱼'
+title = 'Cyrus.Blog'
 theme="archie"
 
 # Code Highlight
