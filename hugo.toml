@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'Cyrus.Blog'
 theme="archie"
 
-
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
