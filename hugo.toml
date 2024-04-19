@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Cyrus.Blog'
 theme="archie"
 
+
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
@@ -19,6 +20,7 @@ paginate=5 # articles per page
 	subtitle = '大器免成'
 	mathjax = true # enable MathJax support
 	katex = true # enable KaTeX support
+	favicon = 'images/favicon.png'
 
 [[params.social]]
 name = "GitHub"
